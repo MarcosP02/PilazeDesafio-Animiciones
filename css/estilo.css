@@ -550,10 +550,22 @@ transform: rotateY(360deg);
     
  }
  .img9 :hover{
-    transform: scale(1.5);
+    animation-name: img9;    
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
     }
-
-
+    @keyframes img9{
+        from {
+            transform: scaleX(2.6);
+    
+        }
+        to{
+    transform: scaleX(1.5);
+        }
+    
+    }
  /*foooter Productos*/
 
  
