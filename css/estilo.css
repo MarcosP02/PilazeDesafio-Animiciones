@@ -528,11 +528,24 @@ transform: rotateY(360deg);
     width: 100%;
     border: 1px solid black;
  }
- .img8 :hover{
-    transform: scale(1.5);
-    }
+
+.img8 :hover{
+        animation-name: img8;    
+        animation-iteration-count: infinite ;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        
+        }
+        @keyframes img8{
+           100% {
+                transform: scale(0.5);
+            }
+           
+          
+        }
+    
  .img9{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     width: 100%;
     
  }
@@ -551,7 +564,7 @@ transform: rotateY(360deg);
      color: red;
  }
    
- /*logo footer Nosotros*/
+ /*logo footer Productos*/
 
 
 .logoifProductos{
